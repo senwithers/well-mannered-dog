@@ -1,0 +1,72 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Open Sans', sans serif;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    padding-top: 25px;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+
+/***** HEADER *****/
+
+header {
+    height: 600px;
+    background-image: url('../img/well-mannered-dog.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    padding-top: 150px;
+    padding-left: 15px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #dfdfdf;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+/***** BODY *****/
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 35px;
+    padding-top: 35px;
+}
+ 
+h2 a {
+    text-decoration: none;
+    color: #13361c;
+}
+
+a:hover {
+    color: #cc9a48;
+}
+
+.button {
+        background-color: white;
+        color: black;
+        border: 2px solid #13361c;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+}
+
+.warning {
+    font-size: 14px;
+    font-style: italicize;
+}
+
+img {
+    transform: scale(.9);
+    border: 2px solid black;
+}
