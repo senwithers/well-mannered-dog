@@ -86,8 +86,12 @@ if($_POST["submit"]) {
                     </div>
                     <div id="nav">
                         <ul>
+                            <li>Find <em>The Well Mannered Dog</em> on the web:</li>
                             <li><a href="https://www.facebook.com/thewellmannereddog" target="_blank"><img src="img/facebook.png"/></a>
                             <li><a href="https://www.facebook.com/thewellmannereddog" target="_blank"><img src="img/pinterest.png"/></a>
-        </main>
+                        </ul>
+                    </div>
+                </footer>
+         </main>
     </body>
 </html>
