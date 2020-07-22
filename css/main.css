@@ -11,7 +11,7 @@ body {
 }
 
 .half-width {
-    width: 50%;
+    width: 49%;
     float: left;
 }
 
@@ -57,8 +57,8 @@ p {
 }
 
 .button {
-        background-color: white;
-        color: black;
+        background-color: #13361c;
+        color: white;
         border: 2px solid #13361c;
         padding: 10px 20px;
         text-align: center;
@@ -88,13 +88,11 @@ img {
       font-family: 'Alegreya Sans SC', sans-serif;
   }
 
-#nav {
-    padding: 15px 25px;
-    float: right;
-}
+
 #nav ul li{
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
+    
 }
 #nav ul li a {
     text-decoration: none;
