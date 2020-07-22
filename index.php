@@ -1,3 +1,19 @@
+<?php
+
+if($_POST["submit"]) {
+    $recipient="TheWMDog@gmail.com";
+    $subject="New Subscriber";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender $senderEmail");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?>
 <!doctype html>
 <html>
     <head>
@@ -53,17 +69,25 @@
                 <section class="full-width">
                     <h1>Would you like to join the mailing list?</h1>
                     <div class="container">
-                        <form action="index.php">
+                        <form method="post" action="index.php">
                           <label for="fname">First Name</label>
-                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          <input type="text" id="fname" name="sender" placeholder="Your name..">
                       
                           <label for="email">Email</label>
-                          <input type="text" id="email" name="Email" placeholder="Email address...">
+                          <input type="text" id="email" name="senderemail" placeholder="Email address...">
                       
                           <input type="submit" value="Submit">
                         </form>
                       </div>
                 </section>
+                <footer class="full-width">
+                    <div class="half-width">
+                        <h1>The Well Mannered Dog</h1>
+                    </div>
+                    <div id="nav">
+                        <ul>
+                            <li><a href="https://www.facebook.com/thewellmannereddog" target="_blank"><img src="img/facebook.png"/></a>
+                            <li><a href="https://www.facebook.com/thewellmannereddog" target="_blank"><img src="img/pinterest.png"/></a>
         </main>
     </body>
 </html>

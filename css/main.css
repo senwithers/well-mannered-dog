@@ -51,6 +51,11 @@ a:hover {
     color: #cc9a48;
 }
 
+p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .button {
         background-color: white;
         color: black;
@@ -70,3 +75,48 @@ img {
     transform: scale(.9);
     border: 2px solid black;
 }
+
+/***** MAILING LIST FORM *****/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #13361c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #cc9a48;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #dfdfdf;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+
+
+  /***** FOOTER *****/
+
+  footer {
+      border-top: 2px solid #13361c;
+      margin-top: 25px;
+  }
+
+  footer h1 {
+      font-family: 'Alegreya Sans SC', sans-serif;
+  }
